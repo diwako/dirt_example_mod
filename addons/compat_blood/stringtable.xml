@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="dirt">
+    <Package name="compat_blood">
+        <Key ID="STR_DIRT_compat_blood_bloodincrease">
+            <English>Blood Effect Increment</English>
+        </Key>
+        <Key ID="STR_DIRT_compat_blood_bloodincrease_desc">
+            <English>Amount of blood effect to be added</English>
+        </Key>
+        <Key ID="STR_DIRT_compat_blood_blooddecrease">
+            <English>Blood Effect Reduction</English>
+        </Key>
+        <Key ID="STR_DIRT_compat_blood_blooddecrease_desc">
+            <English>Amount of blood effect to be removed</English>
+        </Key>
+        <Key ID="STR_DIRT_compat_blood_precipitationDecreaseBlood">
+            <English>Water affects blood</English>
+        </Key>
+        <Key ID="STR_DIRT_compat_blood_precipitationDecreaseBlood_desc">
+            <English>When being exposed to rain or being in water, blood washes off faster</English>
+        </Key>
+    </Package>
+</Project>

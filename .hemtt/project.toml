@@ -1,0 +1,45 @@
+name = "D.I.R.T. Blood Compat"
+prefix = "dirt"
+author = "Diwako"
+mainprefix = "z"
+
+[version]
+path = "addons/compat_blood/script_version.hpp"
+git_hash = 0
+
+[files]
+include = [
+    "meta.cpp",
+    "mod.cpp",
+    "license.txt",
+    "logolarge.paa",
+    "logosmall.paa",
+    "authors.txt",
+]
+exclude = ["*.psd", "*.png", "*.tga", "/**/Cfg*.hpp"]
+
+[hemtt.signing]
+authority = "dirt_compat_blood"
+
+[hemtt.release]
+folder = "dirt_compat_blood"
+
+[lints.stringtables.sorted]
+options.only-lang = true
+
+[lints.sqf.var_all_caps]
+enabled = true
+options.ignore = []
+
+[hemtt.launch.default]
+workshop = [
+    "450814997",  # CBA_A3's Workshop ID
+    "3518145984", # DIRT
+]
+parameters = ["-world=empty"]
+
+[hemtt.launch.ace]
+extends = "default"
+workshop = [
+    "463939057", # ACE3
+]

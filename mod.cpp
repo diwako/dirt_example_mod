@@ -1,0 +1,14 @@
+name = "D.I.R.T. Blood Compat v{version}";
+// picture = "logolarge.paa";
+actionName = "Website";
+action = "https://github.com/diwako/dirt_example_mod";
+// logoSmall = "logolarge.paa";
+// logo = "logosmall.paa";
+// logoOver = "logosmall.paa";
+tooltip = "D.I.R.T.";
+tooltipOwned = "D.I.R.T.";
+description = "D.I.R.T.";
+overview  = "Adds dynamic blood texture layer D.I.R.T.";
+author = "diwako";
+hidePicture = 1;
+hideName = 1;
